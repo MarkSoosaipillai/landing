@@ -1,0 +1,24 @@
+.how-it-works{
+  width: 100%;
+  margin: auto;
+}
+.how-it-works h2 {
+  text-align: center;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+.card{
+  border: 1px solid rgba(223, 223, 223, 1);
+  box-shadow: 0 0 3px rgb(223, 223, 223) ;
+  border-radius: 4px;
+  text-align: center;
+  padding: 30px;
+  width: 200px;
+}
+.card img{
+  height: 100px;
+}

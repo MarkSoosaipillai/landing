@@ -1,0 +1,57 @@
+.banner{
+  background-image: url("../../images/background.png");
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+.container{
+width: 100%;
+margin: auto;
+padding-left: 300px;
+}
+.container h1{
+  color: rgb(240,240,240);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.container p{
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(240,240,240);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  padding-bottom: 15px;
+}
+.btn-green {
+  color: #B6EEA6;
+  border: 1px solid #B6EEA6;
+  border-radius: 4px;
+  transition: .3s;
+  padding: 12px 18px;
+}
+.btn-green:hover {
+  text-decoration: none;
+  color: #81cf6b;
+  border: 1px solid #81cf6b;
+}
+/* media queries */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
